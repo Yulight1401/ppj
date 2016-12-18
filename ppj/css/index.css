@@ -1,0 +1,381 @@
+.info{
+    height: 666px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.company{
+    display: none;
+}
+.nav{
+    position: absolute;
+    z-index: 1001;
+    width: 100%;
+    height: 68px;
+}
+.nav p{
+    display:inline-block;
+    font-size: 14px;
+    font-weight: 200;
+    color: #ffffff;
+    transition: all 0.2s;
+    text-decoration: none;
+    line-height:68px;
+    vertical-align: top;
+    margin: 0px;
+    float: right;
+}
+.nav button:nth-of-type(1){
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    width: 52px;
+    height: 26px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    vertical-align: top;
+    float: right;
+    transition: all 0.2s;
+}
+.nav button:nth-of-type(2){
+    display: none;
+}
+.nav button:hover{
+    color: #ffdb46;
+    border-color: #ffdb46;
+    cursor: pointer;
+}
+.nav p:hover{
+    color: #ffdb46;
+    cursor: pointer;
+}
+.nav p:nth-of-type(1){
+    position: absolute;
+    top: 0px;
+    color: #ffdb46;
+    right: 228px;
+}
+.nav p:nth-of-type(2){
+    position: absolute;
+    top: 0px;
+    right: 154px;
+}
+.nav div{
+    background: url("../imgs/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 68px;
+    width: 152px;
+    transform: scale(0.5);
+    border: none;
+}
+.nav img:after{
+    clear: both;
+}
+.main {
+    background: url("../imgs/main.jpg");
+    background-color: #E5E5E5;
+    background-origin: border-box;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.main p{
+    font-weight: lighter;
+    position: absolute;
+    top: 285px;
+    right: 150px;
+    text-align: left;
+    font-size: 65px;
+    width: 440px;
+    color: white;
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    text-shadow: -9px 0px 20px rgba(3,3,3,0.2);
+}
+.main button{
+    width: 226px;
+    height: 46px;
+    background-color: #F9CB00;
+    border:none;
+    color: white;
+    font-size: 14px;
+    border-radius: 2px;
+    position: absolute;
+    right: 360px;
+    top: 545px;
+}
+.main button:hover{
+    background-color: #ffcd00;
+    cursor: pointer;
+}
+.what{
+    text-align: center;
+    overflow: hidden;
+}
+.what div{
+    margin-top: 60px;
+    transform: scale(0.74);
+    transform-origin: 50% 0;
+    height: 609px;
+    width: 100%;
+    background: url("../imgs/iphone.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    border-style: none;
+    border: none;
+}
+.what h2{
+    font-size: 24px;
+}
+.what h4{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.break{
+    text-align: center;
+    overflow: hidden;
+}
+.break h2{
+    font-size: 24px;
+    margin-top: 70px;
+}
+.break h4{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.break div{
+    width: 100%;
+    margin-top: 60px;
+    transform: scale(0.5);
+    transform-origin: 50% 0;
+    height: 729px;
+    background: url("../imgs/hugh5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.function{
+    margin-top:0px;
+    text-align: center;
+    position: relative;
+    height: 560px;
+    background-color: #F7F7F7;
+}
+.function h1{
+    display: block;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+.function h3{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.function h4{
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.function figure{
+    display: inline-block;
+    margin: 65px 4% 0px 4% ;
+}
+.function figure:nth-of-type(1) figcaption{
+    width: 180px;
+    height: 180px;
+    background: url("../imgs/fast.png");
+    transform-origin: 74% 50%;
+    transform: scale(0.5);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.function figure:nth-of-type(2) figcaption{
+    width: 180px;
+    height: 180px;
+    background: url("../imgs/accurate.png");
+    transform-origin: 123% 50%;
+    transform: scale(0.5);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.function figure:nth-of-type(3) figcaption{
+    width: 180px;
+    height: 180px;
+    background: url("../imgs/extension.png");
+    transform: scale(0.5);
+    transform-origin: 86% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.scene{
+    text-align: center;
+}
+.scene h1{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.scene div{
+    width: 855px;
+    margin: 0 auto;
+}
+.scene div figure{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0 37px 50px 37px;
+    transition: all 0.2s;
+}
+.scene div figure p{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    z-index: 111;
+}
+.scene div figure div{
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0px;
+    height: 25px;
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+.scene div figure figcaption{
+    width: 210px;
+    height: 150px;
+}
+.scene div figure:nth-of-type(1) figcaption{
+    background: url("../imgs/wechat.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(2) figcaption{
+    background: url("../imgs/train.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(3) figcaption{
+    background: url("../imgs/education.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(4) figcaption{
+    background: url("../imgs/answer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(5) figcaption{
+    background: url("../imgs/busines.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(6) figcaption{
+    background: url("../imgs/show.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:hover{
+    box-shadow: -1px -1px 10px #030303;
+    cursor: pointer;
+}
+.scene div figure:hover div{
+    opacity: 0.4;
+}
+.customer{
+    text-align: center;
+    background-color: white;
+}
+.customer h1{
+    margin-bottom: 70px;
+}
+.customer div{
+    width: 100%;
+    height: 286px;
+    background: url("../imgs/wall.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    transform: scale(0.9);
+}
+footer{
+    position: relative;
+    height: 505px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer h1{
+    margin-top: 140px;
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:lighter;
+    letter-spacing: 13px;
+    opacity: 0.95;
+}
+footer button{
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 12px;
+    width: 136px;
+    height: 34px;
+    border: none;
+    margin-bottom: 150px;
+    transition: all 0.2s;
+    opacity: 0.9;
+}
+footer button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+footer p{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    letter-spacing: 2px;
+    opacity: 1;
+    font-size: 12px;
+    color: #808080;
+}
+footer article{
+    display: none;
+}
+footer img{
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+    transition: all 0.2s;
+    transform-origin:center;
+    z-index: 1000;
+    transform: scale(0);
+    position: absolute;
+    right: 50%;
+    bottom: 70px;
+    margin-right: -140px;
+}
+#wechat{
+    opacity: 1;
+}
+#wechat:hover{
+    cursor: pointer;
+}
+#wechat:hover img{
+    transform: scale(1);
+}

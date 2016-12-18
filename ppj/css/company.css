@@ -1,0 +1,392 @@
+.info{
+    height: 666px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.company{
+    display: none;
+}
+.nav{
+    position: fixed;
+    background-color: #171A1E;
+    z-index: 1000;
+    opacity: 0.8;
+    width: 100%;
+    height: 68px;
+}
+.nav p{
+    display:inline-block;
+    font-size: 14px;
+    font-weight: 200;
+    color: #ffffff;
+    transition: all 0.2s;
+    text-decoration: none;
+    line-height:68px;
+    vertical-align: top;
+    margin: 0px;
+    float: right;
+}
+.nav button{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    width: 52px;
+    height: 26px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    vertical-align: top;
+    float: right;
+    transition: all 0.2s;
+}
+.nav button:hover{
+    color: #ffdb46;
+    border-color: #ffdb46;
+    cursor: pointer;
+}
+.nav p:hover{
+    color: #ffdb46;
+    cursor: pointer;
+}
+.nav p:nth-of-type(1){
+    position: absolute;
+    top: 0px;
+    right: 228px;
+}
+.nav p:nth-of-type(2){
+    position: absolute;
+    top: 0px;
+    color: #ffdb46;
+    right: 154px;
+}
+.nav div{
+    background: url("../imgs/company/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 68px;
+    width: 297px;
+    transform: scale(0.5);
+    border: none;
+}
+.nav img:after{
+    clear: both;
+}
+.main {
+    background-color: #171A1E;
+    background: url("../imgs/company/ppt.png"),url("../imgs/company/main.png");
+    background-origin: border-box,border-box;
+    background-size: 380px 380px,cover;
+    background-repeat: no-repeat,repeat;
+    background-position:88% 130px ,center;
+    background-attachment: scroll,fixed;
+}
+.main p{
+    font-weight: lighter;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    text-align: left;
+    font-size: 48px;
+    width: 650px;
+    color: white;
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    text-shadow: -9px 0px 20px rgba(3,3,3,0.2);
+}
+.main h3{
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 335px;
+    left: 70px;
+    opacity: 0.8;
+}
+.main button{
+    width: 226px;
+    height: 46px;
+    background-color: #F9CB00;
+    border:none;
+    color: white;
+    font-size: 14px;
+    border-radius: 2px;
+    position: absolute;
+    left: 70px;
+    top: 430px;
+}
+.main button:hover{
+    background-color: #ffcd00;
+    cursor: pointer;
+}
+.what{
+    text-align: center;
+    overflow: hidden;
+    height: 1180px;
+}
+.what h1{
+    font-size: 40px;
+}
+.what h2{
+    font-size: 22px;
+}
+.what p{
+    text-align: left;
+    width: 50%;
+    margin:0 auto;
+    line-height: 23px;
+}
+.what p span{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    background: url("../imgs/company/check.png");
+    background-size: contain;
+    margin: 10px 10px 0 0;
+    vertical-align: bottom;
+}
+.what h4{
+    font-size: 14px;
+    text-align: left;
+    width: 50%;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 24px auto 60px auto;
+}
+.what div{
+    margin: 60px 0 60px 0px;
+    height: 322px;
+    width: 100%;
+    background: url("../imgs/company/feature.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: none;
+    border: none;
+}
+
+.function{
+    margin-top:0px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 750px;
+    background-color: #F7F7F7;
+}
+.function h1{
+    display: block;
+    position: relative;
+    margin-top: 90px;
+    font-size: 40px;
+}
+.function h2{
+    font-size: 23px;
+    margin: 40px 0 70px 0;
+    font-weight: lighter;
+}
+.function article{
+    display: inline-block;
+    width: 320px;
+    height: 365px;
+    margin: 0 40px 100px 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+.function article:nth-of-type(1){
+    border: 1px #E5E5E5;
+    box-shadow: 1px 1px 8px gray;
+    background: #f7f7f7;
+}
+.function article:nth-of-type(2){
+    border: 1px solid #F9CB00;
+    box-shadow: 1px 1px 8px gray;
+    background-color: #FFD426;
+}
+.function article button{
+    margin-bottom: 28px;
+    width: 136px;
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    opacity: 0.8;
+}
+.function article p:nth-of-type(1){
+    font-size: 23px;
+    margin: 40px 0 28px 0;
+}
+.function article p:nth-of-type(2){
+    font-size: 14px;
+    margin: 0px 0 28px 0;
+}
+.function article p:nth-of-type(3){
+    font-size: 12px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    background-color: white;
+}
+.function article p:nth-of-type(4){
+    font-size: 12px;
+    height: 95px;
+    line-height: 96px;
+    vertical-align: middle;
+    background-color: white;
+    border-top:1px solid gray ;
+}
+.customer{
+    display: none;
+    height: 690px;
+    text-align: center;
+    background-color: white;
+}
+.customer h1{
+    font-size: 40px;
+    margin: 100px 0 40px 0;
+    letter-spacing: 3px;
+}
+.customer h2{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 23px;
+    margin-bottom: 70px;
+}
+.customer article{
+    width: 840px;
+    height: 125px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    border:  1px solid #f1f1f1;
+    box-shadow: 1px 1px 10px #f1f1f1;
+}
+.customer article span{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+}
+.customer article:nth-of-type(1) span{
+    background: url("../imgs/company/yangzhanpo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    left: 24px;
+    top: 24px;
+}
+.customer article:nth-of-type(2) span{
+    background: url("../imgs/company/zhangliang.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    right: 24px;
+    top: 24px;
+}
+.customer article:nth-of-type(1){
+    text-align: left;
+    padding-left: 128px;
+    margin-bottom: 40px;
+}
+.customer article:nth-of-type(2){
+    text-align: right;
+    padding-right: 128px;
+    margin-bottom: 100px;
+}
+.customer article h3{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.customer article h4{
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 0px;
+    margin-bottom: 30px;
+}
+.scene{
+    text-align: center;
+    height: 540px;
+    background: url("../imgs/company/app.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    color: white;
+}
+.scene h1{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    color: white;
+}
+.scene h2{
+    margin: 0 0 80px 0;
+    color: white;
+    font-size: 23px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+footer{
+    position: relative;
+    height: 505px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer h1{
+    margin-top: 140px;
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    opacity: 0.96;
+}
+
+footer button{
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 12px;
+    width: 136px;
+    height: 35px;
+    border: none;
+    margin: 1px 0 150px 0;
+    transition: all 0.2s;
+}
+footer button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+footer p{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    letter-spacing: 2px;
+    opacity: 1;
+    color: #808080;
+    font-size: 12px;
+}
+footer article{
+    display: none;
+}
+footer img{
+    width: 280px;
+    height: 280px;
+    transition: all 0.2s;
+    transform-origin:center;
+    z-index: 1000;
+    transform: scale(0);
+    position: absolute;
+    right: 50%;
+    bottom: 70px;
+    margin-right: -140px;
+}
+#wechat:hover{
+    cursor: pointer;
+}
+#wechat:hover img{
+    transform: scale(1);
+}

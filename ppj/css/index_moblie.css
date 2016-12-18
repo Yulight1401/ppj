@@ -1,0 +1,301 @@
+body { zoom: 100%; } * { font-family: "DejaVu Sans Mono",Helvetica,Courier !important ;text-decoration: none}
+.info{
+    height: 736px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 68px;
+}
+.nav p{
+    display: none;
+}
+.nav div{
+
+    background: url("../imgs/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 110px;
+    transform: scale(0.5);
+}
+.nav button:nth-of-type(1){
+    display: none;
+}
+.nav button:nth-of-type(2){
+    opacity: 0.7;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 104px;
+    height: 26px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    vertical-align: top;
+    float: right;
+    transition: all 0.2s;
+}
+.main {
+    background: url("../imgs/moblie/1p.png");
+    background-color: #E5E5E5;
+    background-origin: border-box;
+    background-size: cover;
+    text-align: center;
+}
+.main button{
+    display: none;
+}
+.main p{
+    font-weight: lighter;
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 100%;
+    color: white;
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    text-shadow: -9px 0px 20px rgba(3,3,3,0.2);
+}
+@media screen and (min-width: 668px) {
+    .main p{
+        bottom: 350px;
+    }
+}
+.what{
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+}
+.what h1{
+    font-size: 24px;
+    margin: 65px auto 45px auto;
+}
+.what h2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.what h4{
+    font-size: 12px;
+    opacity: 0.8;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.what div{
+    margin-top: 50px;
+    transform: scale(0.8);
+    transform-origin: 50% 0;
+    height: 609px;
+    width: 100%;
+    background: url("../imgs/moblie/perfect.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    border-style: none;
+    border: none;
+}
+.break{
+    text-align: center;
+    overflow: hidden;
+    height: 400px;
+}
+.break h2{
+    margin-top: 0px;
+    font-size: 14px;
+}
+.break h4{
+    margin: 0 auto;
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 38px;
+    width: 84%;
+    line-height: 20px;
+}
+.break div{
+    width: 100%;
+    margin-top: 50px;
+    transform: scale(0.8);
+    transform-origin: 50% 0;
+    height: 865px;
+    background: url("../imgs/moblie/hugh5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}
+.function{
+    display: none;
+}
+.scene{
+    height: 680px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+.scene h1{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 44px;
+}
+.scene div{
+    width: 280px;
+    margin: 0 auto;
+}
+.scene div figure{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0 37px 25px 37px;
+    transition: all 0.2s;
+}
+.scene div figure p{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    z-index: 111;
+}
+.scene div figure div{
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0px;
+    height: 25px;
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+.scene div figure figcaption{
+    width: 210px;
+    height: 150px;
+}
+.scene div figure:nth-of-type(1){
+    display: none;
+}
+.scene div figure:nth-of-type(2){
+    display: none;
+}
+.scene div figure:nth-of-type(3) figcaption{
+    background: url("../imgs/education.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(4) figcaption{
+    background: url("../imgs/answer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(5) figcaption{
+    background: url("../imgs/busines.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.scene div figure:nth-of-type(6){
+    display: none;
+}
+.scene div figure:hover{
+    box-shadow: -1px -1px 10px #030303;
+    cursor: pointer;
+}
+.scene div figure:hover div{
+    opacity: 0.4;
+}
+.customer{
+    height: 280px;
+    text-align: center;
+    background-color: white;
+}
+.customer h1{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+.customer div{
+    width: 100%;
+    height: 286px;
+    background: url("../imgs/moblie/wall.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    transform: scale(0.8);
+}
+.company{
+    text-align: center;
+    height: 300px;
+    background-color: #F7F7F7;
+}
+.company h1{
+    margin: 45px 0 30px 0;
+    font-size: 24px;
+}
+.company h2{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.company h3{
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: lighter;
+}
+.company button{
+    margin-top: 30px;
+    width: 97px;
+    height: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    opacity: 0.8;
+    color: gray;
+}
+footer{
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer h1{
+    margin-top: 62px;
+    margin-bottom: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+footer button{
+    display: none;
+}
+footer p{
+    display: none;
+}
+footer article{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+footer article img{
+    width: 139px;
+    height: 139px;
+    margin-bottom: 30px;
+}
+footer article h4{
+    -webkit-appearance: none;
+    text-decoration: none;
+    color: #808080;
+    font-size: 14px;
+    margin-top: 0px;
+}
+footer article{
+    color: #808080;
+    font-size: 12px;
+}

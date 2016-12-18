@@ -1,0 +1,6 @@
+ppj目录是未压缩合并的版本
+ppj-build是压缩的版本
+图片已经全部通过tinify压缩，不过一些大图并没有处理为progressive jpeg
+不过图片已经大幅度压缩过了
+index_mobile.css是手机端的代码
+index_resize.css是处理响应式的代码

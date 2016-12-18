@@ -1,0 +1,11 @@
+@media screen and (max-width: 1280px){
+    .main p{
+        right: 0px;
+    }
+    .main button{
+        right: 210px;
+    }
+    .function figure{
+        margin: 65px 1.7% 0 1.7%;
+    }
+}
